@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<h2 class="text-info" style="color:blueviolet ; text-align: center;">Documentations</a></h2>
+
+
+<div class="row" justify-content-center>
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem; padding-left: 10px;">
+    <img class="card-img-top" src={{url_for('static', filename='hld.png')}} alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">High Level Documentation</h5>
+        <p class="card-text">Summary outlining key aspects of a topic, system, or project.</p>
+        <a href="https://docs.google.com/document/d/1ZwmtwlKz7tHjZK52kLRgBee_JHCVC5QY/edit?usp=sharing&ouid=110509496792292320446&rtpof=true&sd=true" class="btn btn-primary">View</a>
+    </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{url_for('static', filename='lld.png')}} alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Low Level Documentation</h5>
+        <p class="card-text"> Detailed description of specific technical components or aspects.</p>
+        <a href="https://docs.google.com/document/d/1vRCcguWxgd8CtkCBKOKsjsYoBGIiR1TX/edit?usp=sharing&ouid=110509496792292320446&rtpof=true&sd=true" class="btn btn-primary">view</a>
+    </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem;">
+        
+    <img class="card-img-top" src={{url_for('static', filename='architect.png')}} alt="Card image cap">
+    <div class="card-body" >
+        <h5 class="card-title">Architecture</h5>
+        <p class="card-text">Design and structure of a system or software solution. </p>
+        <a href="https://docs.google.com/document/d/1TzO1MAf2Naq512n9ipuJUwmiRhguWdtR/edit?usp=sharing&ouid=110509496792292320446&rtpof=true&sd=true" class="btn btn-primary">view</a>
+    </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{url_for('static', filename='wireframe.png')}} alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Wireframe</h5>
+        <p class="card-text">Visual blueprint illustrating the layout and structure of a user interface or website design.</p>
+        <a href="https://docs.google.com/document/d/18K6gdb4s8xD-fAA3pHJeDZHmPwbbfOjc/edit?usp=sharing&ouid=110509496792292320446&rtpof=true&sd=true" class="btn btn-primary">view</a>
+    </div>
+    </div>
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{url_for('static', filename='source.png')}} alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Source Code</h5>
+        <p class="card-text">Git hub repository link.</p>
+        <a href="https://github.com/chandansy/Insurance-premium-prediction" class="btn btn-primary">view</a>
+    </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{url_for('static', filename='dpr.png')}} alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Detailed Project Report</h5>
+        <p class="card-text">omprehensive analysis and description of a project's objectives, timelines, resources, and outcomes.</p>
+        <a href="https://docs.google.com/presentation/d/1jk7TJij33ersDGfO8ybDPYietoca9VNU/edit?usp=sharing&ouid=110509496792292320446&rtpof=true&sd=true" class="btn btn-primary">view</a>
+    </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock %}
